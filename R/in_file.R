@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' in_file('data.csv')
+#' in_file('nsf_survey_of_earned_doctorates.csv')
 in_file <- function(...) {
   system.file("data", ..., package = "dataplay", mustWork = TRUE)
 }

@@ -5,7 +5,7 @@ Authors@R:
     person("Ava", "Hoffman", , "avamariehoffman@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-1833-4397"))
 Description: This is a super simple package meant to load selected data into R for the purposes of teaching and learning.
-License: `use_mit_license()`
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.2

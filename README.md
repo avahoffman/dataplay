@@ -16,6 +16,9 @@ You can install the development version of dataplay from
 ``` r
 # install.packages("devtools")
 devtools::install_github("avahoffman/dataplay")
+
+# See the datasets available
+?dataplay
 ```
 
 ## Example
@@ -26,5 +29,5 @@ data:
 ``` r
 library(dataplay)
 
-df <- doctorate_survey()
+doctorate_survey
 ```

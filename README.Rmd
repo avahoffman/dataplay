@@ -27,6 +27,9 @@ You can install the development version of dataplay from [GitHub](https://github
 ``` r
 # install.packages("devtools")
 devtools::install_github("avahoffman/dataplay")
+
+# See the datasets available
+?dataplay
 ```
 
 ## Example
@@ -36,6 +39,6 @@ This is a basic example loading the NSF Survey of Earned Doctorates data:
 ```{r example, eval = FALSE}
 library(dataplay)
 
-df <- doctorate_survey()
+doctorate_survey
 
 ```

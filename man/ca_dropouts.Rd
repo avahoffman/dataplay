@@ -5,18 +5,7 @@
 \alias{ca_dropouts}
 \title{School Dropouts by Race & Gender}
 \format{
-\tabular{ll}{
-\bold{Field.Name} \tab \bold{Description} \cr
-CDSCode    \tab This 14-digit code is the official, unique identification of a school within California. The first two digits identify the county, the next five digits identify the school district, and the last seven digits identify the school.                                                  \cr
-\tab Please note that a CDS code ending in '0000000' indicates a district record not a school.                                                                                                                                                                                             \cr
-NCESDist   \tab This field represents the 7-digit National Center for Educational Statistics (NCES) school district identification number. The first 2 digits identify the state and the last 5 digits identify the school district. Combined, they make a unique 7-digit ID for each school district.\cr
-NCESSchool \tab This field represents the 5-digit NCES school identification number. The NCESSchool combined with the NCESDist form a unique 12-digit ID for each school.                                                                                                                             \cr
-StatusType \tab This field identifies the status of the district. Definitions of the valid status types are listed below:                                                                                                                                                                             \cr
-\tab Active: The district is in operation and providing instructional services.                                                                                                                                                                                                            \cr
-\tab Closed: The district is not in operation and no longer providing instructional services.                                                                                                                                                                                              \cr
-\tab Merged: The district has combined with another district or districts.                                                                                                                                                                                                                 \cr
-\tab Pending: The district has not opened for operation and instructional services yet, but plans to open within the next 9<d0>12 months.
-}
+An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 293836 rows and 20 columns.
 }
 \source{
 California Department of Education Data Reporting Office

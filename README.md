@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# `dataplay` package
+# `dataplay` package 🤸‍♂️
 
 <!-- badges: start -->
 <!-- badges: end -->

@@ -61,6 +61,6 @@ Further questions regarding one-year dropout data can be sent by e-mail to
 the Data Reporting Office at \url{dro@cde.ca.gov}.
 }
 \seealso{
-\link{ca_schools}
+\link{ca_schools},\link{ca_income_tax}
 }
 \keyword{datasets}

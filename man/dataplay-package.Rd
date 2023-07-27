@@ -17,6 +17,8 @@ enrollment by school in California. Data is further subdivided by
 race/ethnic designation and gender.
 \item \code{ca_schools}: Contains all active, pending, closed, and merged public
 schools and districts in California.
+\item \code{ca_income_tax}: Contains income tax filing information by zip code, city,
+and county in California.
 \item \code{doctorate_survey}: The Survey of Earned Doctorates (SED), an annual
 census of individuals who earn research doctoral degrees from accredited
 U.S. academic institutions.

@@ -48,7 +48,7 @@
 #' This data was downloaded 2023/01/20 at 13:00:29 EST and gathered from:
 #' [https://www.cde.ca.gov/ds/ad/filesdropouts.asp](https://www.cde.ca.gov/ds/ad/filesdropouts.asp).
 #'
-#' @seealso \link{ca_schools}
+#' @seealso \link{ca_schools},\link{ca_income_tax}
 #'
 "ca_dropouts"
 
@@ -187,7 +187,41 @@
 #' This data was downloaded Mon Jan 23 11:37:26 2023 and gathered from:
 #' [https://www.cde.ca.gov/ds/si/ds/pubschls.asp](https://www.cde.ca.gov/ds/si/ds/pubschls.asp).
 #'
-#' @seealso \link{ca_dropouts}
+#' @seealso \link{ca_dropouts},\link{ca_income_tax}
 #'
 "ca_schools"
+
+
+#' Personal Income Tax Statistics By Zip Code
+#'
+#' @description
+#' This dataset contains data from California resident tax returns filed with
+#' California adjusted gross income and self-assessed tax listed by zip code.
+#' This dataset contains data for taxable years 1992 to the most recent tax
+#' year available.
+#'
+#' @details
+#' | **Field Name**      |      | **Description**                                                          |
+#' |---------------------|------|:-------------------------------------------------------------------------|
+#' | Taxable Year        | `  ` | Tax year in which return was filed.                                      |
+#' | Zip Code            | `  ` | Five-digit Zip Code associated with the tax return.                      |
+#' | State               | `  ` | State, abbreviated, in which the return was filed.                       |
+#' | City                | `  ` | City name in which the return was filed.                                 |
+#' | County              | `  ` | County name in which the return was filed.                               |
+#' | Returns             | `  ` | The number of returns filed for the designated taxable year and zip code.|
+#' | CA AGI              | `  ` | California adjusted gross income.                                        |
+#' | Total Tax Liability | `  ` | Amount of taxes owed.                                                    |
+#'
+#' Further questions regarding this data can be sent by e-mail to
+#' FTB Open Data at [no-reply@data.ftb.ca.gov](no-reply@data.ftb.ca.gov).
+#'
+#' @source
+#' California Franchise Tax Board
+#'
+#' This data was downloaded 2023/07/27 at 13:15:00 EST and gathered from:
+#' [https://data.ca.gov/dataset/personal-income-tax-statistics-by-zip-code](https://data.ca.gov/dataset/personal-income-tax-statistics-by-zip-code).
+#'
+#' @seealso \link{ca_schools},\link{ca_dropouts}
+#'
+"ca_income_tax"
 

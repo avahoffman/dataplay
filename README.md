@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# `dataplay` package 🤸‍♂️
+# `dataplay` package
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -16,14 +16,9 @@ You can install the development version of dataplay from
 ``` r
 # install.packages("devtools")
 devtools::install_github("avahoffman/dataplay")
-```
 
-## What Data is Available?
-
-Prompt the package help page to view the datasets in `dataplay`.
-
-``` r
 # See the datasets available
+library(dataplay)
 ?dataplay
 ```
 

@@ -145,6 +145,6 @@ Further questions regarding this data can be sent by e-mail to
 the Data Reporting Office at \url{dro@cde.ca.gov}.
 }
 \seealso{
-\link{ca_dropouts}
+\link{ca_dropouts},\link{ca_income_tax}
 }
 \keyword{datasets}

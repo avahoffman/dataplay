@@ -29,6 +29,7 @@ You can install the development version of dataplay from [GitHub](https://github
 devtools::install_github("avahoffman/dataplay")
 
 # See the datasets available
+library(dataplay)
 ?dataplay
 ```
 
